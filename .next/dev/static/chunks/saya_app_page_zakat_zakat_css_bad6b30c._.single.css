@@ -1,0 +1,604 @@
+/* [project]/saya/app/page/zakat/zakat.css [app-client] (css) */
+.zakat {
+  text-align: center;
+  background: #27565a;
+  justify-content: center;
+  align-items: center;
+  padding: 110px 80px;
+  scroll-margin-top: 80px;
+  font-family: DM Sans, sans-serif;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.zakat__bg-text {
+  color: #ffffff09;
+  letter-spacing: .15em;
+  pointer-events: none;
+  -webkit-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  z-index: 0;
+  font-family: DM Sans, sans-serif;
+  font-size: clamp(120px, 20vw, 220px);
+  font-weight: 900;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.zakat__dot {
+  z-index: 1;
+  border-radius: 3px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  transform: rotate(45deg);
+}
+
+.zakat__dot--orange {
+  background-color: #f5a623;
+  animation: 4s ease-in-out infinite zakatDot1;
+  top: 60px;
+  left: 8%;
+}
+
+.zakat__dot--green {
+  background-color: #4caf82;
+  animation: 3.6s ease-in-out infinite zakatDot2;
+  bottom: 80px;
+  right: 10%;
+}
+
+.zakat__dot--pink {
+  background-color: #e91e8c;
+  animation: 4.4s ease-in-out infinite zakatDot3;
+  top: 40%;
+  right: 6%;
+}
+
+.zakat__dot--navy {
+  background-color: #4caf82;
+  animation: 5s ease-in-out .8s infinite zakatDot1;
+  bottom: 120px;
+  left: 5%;
+}
+
+.zakat__star {
+  z-index: 1;
+  pointer-events: none;
+  -webkit-user-select: none;
+  user-select: none;
+  line-height: 1;
+  position: absolute;
+}
+
+.zakat__star--s1 {
+  color: #f5a623;
+  opacity: .65;
+  font-size: 14px;
+  animation: 4.1s ease-in-out infinite zStarFloat1;
+  top: 8%;
+  left: 3%;
+}
+
+.zakat__star--s2 {
+  color: #f5a623;
+  opacity: .45;
+  font-size: 9px;
+  animation: 5.2s ease-in-out .5s infinite zStarFloat2;
+  top: 20%;
+  left: 20%;
+}
+
+.zakat__star--s3 {
+  color: #f5a623;
+  opacity: .55;
+  font-size: 18px;
+  animation: 3.9s ease-in-out 1.1s infinite zStarFloat3;
+  top: 6%;
+  right: 8%;
+}
+
+.zakat__star--s4 {
+  color: #f5a623;
+  opacity: .5;
+  font-size: 11px;
+  animation: 4.9s ease-in-out .7s infinite zStarFloat1;
+  bottom: 14%;
+  left: 15%;
+}
+
+.zakat__star--s5 {
+  color: #f5a623;
+  opacity: .4;
+  font-size: 8px;
+  animation: 5.4s ease-in-out 1.5s infinite zStarFloat2;
+  bottom: 22%;
+  right: 15%;
+}
+
+.zakat__star--s6 {
+  color: #4caf82;
+  opacity: .55;
+  font-size: 16px;
+  animation: 4.6s ease-in-out .3s infinite zStarFloat2;
+  top: 14%;
+  left: 7%;
+}
+
+.zakat__star--s7 {
+  color: #4caf82;
+  opacity: .45;
+  font-size: 10px;
+  animation: 3.7s ease-in-out 1s infinite zStarFloat3;
+  top: 42%;
+  left: 2%;
+}
+
+.zakat__star--s8 {
+  color: #4caf82;
+  opacity: .5;
+  font-size: 19px;
+  animation: 5s ease-in-out 1.9s infinite zStarFloat1;
+  top: 10%;
+  right: 22%;
+}
+
+.zakat__star--s9 {
+  color: #4caf82;
+  opacity: .45;
+  font-size: 9px;
+  animation: 4.1s ease-in-out .6s infinite zStarFloat2;
+  bottom: 30%;
+  left: 2%;
+}
+
+.zakat__star--s10 {
+  color: #4caf82;
+  opacity: .55;
+  font-size: 13px;
+  animation: 4.8s ease-in-out 2.1s infinite zStarFloat3;
+  bottom: 10%;
+  right: 5%;
+}
+
+.zakat__star--s11 {
+  color: #e91e8c;
+  opacity: .5;
+  font-size: 12px;
+  animation: 4s ease-in-out .4s infinite zStarFloat1;
+  top: 55%;
+  left: 3%;
+}
+
+.zakat__star--s12 {
+  color: #e91e8c;
+  opacity: .45;
+  font-size: 15px;
+  animation: 4.4s ease-in-out 1.3s infinite zStarFloat3;
+  top: 5%;
+  left: 55%;
+}
+
+.zakat__star--s13 {
+  color: #e91e8c;
+  opacity: .45;
+  font-size: 9px;
+  animation: 5.6s ease-in-out .9s infinite zStarFloat2;
+  bottom: 18%;
+  right: 28%;
+}
+
+.zakat__star--s14 {
+  color: #e91e8c;
+  opacity: .55;
+  font-size: 14px;
+  animation: 3.8s ease-in-out 1.6s infinite zStarFloat1;
+  top: 72%;
+  right: 4%;
+}
+
+.zakat__star--s15 {
+  color: #e91e8c;
+  opacity: .45;
+  font-size: 10px;
+  animation: 5s ease-in-out .2s infinite zStarFloat3;
+  top: 30%;
+  right: 3%;
+}
+
+.zakat__inner {
+  z-index: 2;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  max-width: 760px;
+  display: flex;
+  position: relative;
+}
+
+.zakat__tagline {
+  color: #f5a623;
+  letter-spacing: .02em;
+  margin: 0 0 14px;
+  font-family: Dancing Script, cursive;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.zakat__heading {
+  color: #fff;
+  letter-spacing: -.5px;
+  margin: 0 0 20px;
+  font-family: DM Sans, sans-serif;
+  font-size: clamp(32px, 5vw, 56px);
+  font-weight: 900;
+  line-height: 1.15;
+}
+
+.zakat__heading-highlight {
+  color: #f5a623;
+}
+
+.zakat__divider {
+  background: linear-gradient(90deg, #f07b2f, #f5a623);
+  border-radius: 99px;
+  width: 56px;
+  height: 4px;
+  margin: 0 auto 24px;
+}
+
+.zakat__badge {
+  background: #f5a6231f;
+  border: 1.5px solid #f5a62359;
+  border-radius: 50px;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 24px;
+  padding: 8px 18px;
+  display: inline-flex;
+}
+
+.zakat__badge-percent {
+  color: #f5a623;
+  letter-spacing: -.5px;
+  white-space: nowrap;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.zakat__badge-text {
+  color: #ffffffd9;
+  text-align: left;
+  max-width: 200px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.zakat__description {
+  color: #ffffffb3;
+  letter-spacing: .01em;
+  max-width: 580px;
+  margin: 0 0 36px;
+  font-size: 16.5px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.85;
+}
+
+.zakat__impacts {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.zakat__impact-pill {
+  background: #ffffff12;
+  border: 1px solid #ffffff1f;
+  border-radius: 50px;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  transition: background .2s, transform .2s;
+  display: inline-flex;
+}
+
+.zakat__impact-pill:hover {
+  background: #ffffff21;
+  transform: translateY(-2px);
+}
+
+.zakat__impact-icon {
+  background-color: var(--pill-color);
+  border-radius: 50%;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  display: flex;
+}
+
+.zakat__impact-label {
+  color: #ffffffe6;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.zakat__btn {
+  color: #fff;
+  letter-spacing: .1em;
+  cursor: pointer;
+  background: linear-gradient(135deg, #f07b2f, #f5a623);
+  border: none;
+  border-radius: 50px;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding: 20px 48px;
+  font-family: DM Sans, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  transition: transform .2s, box-shadow .25s;
+  display: inline-flex;
+  box-shadow: 0 10px 32px #f5a62366;
+}
+
+.zakat__btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 40px #f5a6238c;
+}
+
+.zakat__trust {
+  color: #fff6;
+  letter-spacing: .03em;
+  margin: 0;
+  font-size: 13px;
+}
+
+@keyframes zStarFloat1 {
+  0%, 100% {
+    transform: translateY(0)rotate(0);
+  }
+
+  50% {
+    transform: translateY(-13px)rotate(20deg);
+  }
+}
+
+@keyframes zStarFloat2 {
+  0%, 100% {
+    transform: translate(0)rotate(0);
+  }
+
+  33% {
+    transform: translate(7px, -11px)rotate(15deg);
+  }
+
+  66% {
+    transform: translate(-5px, -6px)rotate(-12deg);
+  }
+}
+
+@keyframes zStarFloat3 {
+  0%, 100% {
+    transform: translateY(0)rotate(0);
+  }
+
+  40% {
+    transform: translateY(-10px)rotate(180deg);
+  }
+
+  80% {
+    transform: translateY(-5px)rotate(300deg);
+  }
+}
+
+@keyframes zakatDot1 {
+  0%, 100% {
+    transform: rotate(45deg)translateY(0);
+  }
+
+  50% {
+    transform: rotate(45deg)translateY(-9px);
+  }
+}
+
+@keyframes zakatDot2 {
+  0%, 100% {
+    transform: rotate(45deg)translate(0);
+  }
+
+  50% {
+    transform: rotate(45deg)translate(6px, -8px);
+  }
+}
+
+@keyframes zakatDot3 {
+  0%, 100% {
+    transform: rotate(45deg)translateY(0);
+  }
+
+  30% {
+    transform: rotate(45deg)translateY(-7px);
+  }
+
+  70% {
+    transform: rotate(45deg)translateY(-12px);
+  }
+}
+
+@media (max-width: 1024px) {
+  .zakat {
+    padding: 90px 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .zakat {
+    padding: 70px 24px;
+  }
+
+  .zakat__badge {
+    text-align: center;
+    border-radius: 16px;
+    flex-direction: column;
+    gap: 4px;
+    padding: 12px 20px;
+  }
+
+  .zakat__badge-text {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .zakat__impacts {
+    gap: 10px;
+  }
+
+  .zakat__btn {
+    padding: 18px 36px;
+    font-size: 14px;
+  }
+
+  .zakat__dot--orange {
+    top: 50px;
+    left: 5%;
+  }
+
+  .zakat__dot--green {
+    bottom: 60px;
+    right: 6%;
+  }
+
+  .zakat__dot--pink {
+    top: 32%;
+    right: 4%;
+  }
+
+  .zakat__dot--navy {
+    bottom: 90px;
+    left: 4%;
+  }
+
+  .zakat__star--s1 {
+    top: 30px;
+    left: 2%;
+  }
+
+  .zakat__star--s2 {
+    top: 60px;
+    left: 18%;
+  }
+
+  .zakat__star--s3 {
+    top: 22px;
+    right: 6%;
+  }
+
+  .zakat__star--s4 {
+    top: unset;
+    bottom: 100px;
+    left: 12%;
+  }
+
+  .zakat__star--s5 {
+    top: unset;
+    bottom: 50px;
+    right: 12%;
+  }
+
+  .zakat__star--s6 {
+    top: 72px;
+    left: 5%;
+  }
+
+  .zakat__star--s7 {
+    top: 45%;
+    left: 2%;
+  }
+
+  .zakat__star--s8 {
+    top: 38px;
+    right: 20%;
+  }
+
+  .zakat__star--s9 {
+    top: unset;
+    bottom: 85px;
+    left: 2%;
+  }
+
+  .zakat__star--s10 {
+    top: unset;
+    bottom: 25px;
+    right: 4%;
+  }
+
+  .zakat__star--s11 {
+    top: 60%;
+    left: 3%;
+  }
+
+  .zakat__star--s12 {
+    top: 16px;
+    left: 50%;
+  }
+
+  .zakat__star--s13 {
+    top: unset;
+    bottom: 42px;
+    right: 25%;
+  }
+
+  .zakat__star--s14 {
+    top: 70%;
+    right: 3%;
+  }
+
+  .zakat__star--s15 {
+    top: 28%;
+    right: 2%;
+  }
+}
+
+@media (max-width: 480px) {
+  .zakat__star--s2, .zakat__star--s5, .zakat__star--s9, .zakat__star--s13, .zakat__star--s15 {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .zakat {
+    padding: 56px 16px;
+  }
+
+  .zakat__impact-pill {
+    padding: 8px 14px;
+  }
+
+  .zakat__impact-label {
+    font-size: 13px;
+  }
+
+  .zakat__btn {
+    justify-content: center;
+    width: 100%;
+    padding: 16px 28px;
+    font-size: 13px;
+  }
+
+  .zakat__star--s4, .zakat__star--s7, .zakat__star--s11, .zakat__star--s14 {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=saya_app_page_zakat_zakat_css_bad6b30c._.single.css.map*/

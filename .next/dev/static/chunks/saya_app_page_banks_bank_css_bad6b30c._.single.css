@@ -1,0 +1,489 @@
+/* [project]/saya/app/page/banks/bank.css [app-client] (css) */
+:root {
+  --orange: #f5a623;
+  --orange-2: #f07b2f;
+  --green: #3ecf8e;
+  --pink: #e91e8c;
+  --bg: #0f1c2e;
+  --bg-2: #162436;
+  --bg-3: #1e3248;
+  --dark: #f1f5f9;
+  --mid: #94a3b8;
+  --border: #ffffff12;
+}
+
+.rm-modal__backdrop {
+  z-index: 9999;
+  background: #000000bf;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+  position: fixed;
+  inset: 0;
+}
+
+.rm-modal {
+  background: var(--bg-2);
+  z-index: 10000;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  width: 45%;
+  max-height: 85vh;
+  padding: 40px;
+  position: relative;
+  overflow: hidden auto;
+  box-shadow: 0 0 0 1px #ffffff0d, 0 24px 64px #00000080;
+}
+
+.rm-modal__close {
+  z-index: 10001;
+  cursor: pointer;
+  color: #fff;
+  background: #ff6e86d9;
+  border: none;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  font-size: 18px;
+  transition: all .3s;
+  display: flex;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.rm-modal__close:hover {
+  color: #fff;
+  background: #ff6e86;
+  transform: scale(1.08);
+}
+
+.donate-section {
+  background: var(--bg);
+  width: 100%;
+  font-family: DM Sans, sans-serif;
+  position: relative;
+}
+
+.donate-header {
+  text-align: center;
+  z-index: 1;
+  margin-bottom: 18px;
+  animation: .65s both fadeUp;
+  position: relative;
+}
+
+.donate-header__tagline {
+  color: var(--orange-2);
+  letter-spacing: .02em;
+  margin: 0 0 8px;
+  font-family: DM Sans, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.donate-header__sub {
+  color: var(--mid);
+  max-width: 380px;
+  margin: 0 auto;
+  font-family: DM Sans, sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.donate-grid {
+  z-index: 1;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 12px;
+  display: flex;
+  position: relative;
+}
+
+.bank-card {
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  flex: 1 1 0;
+  min-width: 0;
+  padding: 14px;
+  transition: transform .3s, box-shadow .3s;
+  animation: .65s both fadeUp;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px #ffffff0f, 0 4px 28px #0000004d;
+}
+
+.bank-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 0 1px #f5a62333, 0 18px 50px #0006;
+}
+
+.bank-card:before {
+  content: "";
+  background: linear-gradient(90deg, var(--green), var(--orange));
+  border-radius: 12px 12px 0 0;
+  height: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.bank-card:after {
+  content: "";
+  pointer-events: none;
+  background: radial-gradient(circle, #3ecf8e0f 0%, #0000 70%);
+  border-radius: 50%;
+  width: 190px;
+  height: 190px;
+  position: absolute;
+  bottom: -50px;
+  right: -50px;
+}
+
+.bank-card__logo {
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.bank-card__icon {
+  background: linear-gradient(135deg, var(--bg-3), #1a3a2a);
+  width: 28px;
+  height: 28px;
+  color: var(--green);
+  border-radius: 6px;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  display: flex;
+}
+
+.bank-card__name {
+  color: #f1f5f9;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.bank-card__type {
+  color: var(--green);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  margin-top: 2px;
+  font-size: 9px;
+  font-weight: 700;
+}
+
+.bank-card__field {
+  margin-bottom: 6px;
+}
+
+.bank-card__label {
+  color: var(--mid);
+  margin-bottom: 2px;
+  font-size: 11px;
+}
+
+.bank-card__value {
+  color: #e2e8f0;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.bank-card__iban-row {
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+  display: flex;
+}
+
+.bank-card__iban-text {
+  color: var(--orange);
+  word-break: break-all;
+  flex: 1;
+  font-family: monospace;
+  font-size: 11px;
+}
+
+.copy-btn {
+  color: var(--mid);
+  cursor: pointer;
+  background: none;
+  border: none;
+  flex-shrink: 0;
+  align-items: center;
+  padding: 0;
+  font-size: 14px;
+  transition: color .2s;
+  display: inline-flex;
+}
+
+.copy-btn svg {
+  flex-shrink: 0;
+  font-size: 14px;
+}
+
+.copy-btn:hover {
+  color: var(--orange);
+}
+
+.copy-btn--copied {
+  color: var(--green);
+}
+
+.copy-btn span {
+  display: none;
+}
+
+.copy-toast {
+  background: var(--green);
+  color: #0f1c2e;
+  letter-spacing: .08em;
+  z-index: 10;
+  pointer-events: none;
+  border-radius: 99px;
+  padding: 5px 14px;
+  font-size: 11.5px;
+  font-weight: 700;
+  animation: .25s both toastIn;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+
+.donate-notice {
+  z-index: 1;
+  background: none;
+  border: none;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 0;
+  animation: .65s .36s both fadeUp;
+  display: flex;
+  position: relative;
+}
+
+.donate-notice__icon, .donate-notice__body h3 {
+  display: none;
+}
+
+.donate-notice__body p {
+  color: var(--mid);
+  text-align: center;
+  margin: 0;
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.donate-notice__body p strong {
+  color: var(--orange-2);
+}
+
+@keyframes bStarFloat1 {
+  0%, 100% {
+    transform: translateY(0)rotate(0);
+  }
+
+  50% {
+    transform: translateY(-13px)rotate(20deg);
+  }
+}
+
+@keyframes bStarFloat2 {
+  0%, 100% {
+    transform: translate(0)rotate(0);
+  }
+
+  33% {
+    transform: translate(7px, -11px)rotate(15deg);
+  }
+
+  66% {
+    transform: translate(-5px, -6px)rotate(-12deg);
+  }
+}
+
+@keyframes bStarFloat3 {
+  0%, 100% {
+    transform: translateY(0)rotate(0);
+  }
+
+  40% {
+    transform: translateY(-10px)rotate(180deg);
+  }
+
+  80% {
+    transform: translateY(-5px)rotate(300deg);
+  }
+}
+
+@keyframes bankDot1 {
+  0%, 100% {
+    transform: rotate(45deg)translateY(0);
+  }
+
+  50% {
+    transform: rotate(45deg)translateY(-9px);
+  }
+}
+
+@keyframes bankDot2 {
+  0%, 100% {
+    transform: rotate(45deg)translate(0);
+  }
+
+  50% {
+    transform: rotate(45deg)translate(6px, -8px);
+  }
+}
+
+@keyframes bankDot3 {
+  0%, 100% {
+    transform: rotate(45deg)translateY(0);
+  }
+
+  30% {
+    transform: rotate(45deg)translateY(-7px);
+  }
+
+  70% {
+    transform: rotate(45deg)translateY(-12px);
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(26px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes toastIn {
+  from {
+    opacity: 0;
+    transform: translateY(-6px)scale(.9);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0)scale(1);
+  }
+}
+
+@media (max-width: 1024px) {
+  .rm-modal {
+    width: 60%;
+    padding: 32px 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  .rm-modal {
+    width: 80%;
+    max-height: 88vh;
+    padding: 28px 22px;
+  }
+
+  .donate-header h2 {
+    font-size: 20px;
+  }
+
+  .donate-header__tagline {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 560px) {
+  .rm-modal__backdrop {
+    padding: 12px;
+  }
+
+  .rm-modal {
+    border-radius: 16px;
+    width: 95%;
+    max-height: 90vh;
+    padding: 22px 16px 20px;
+  }
+
+  .rm-modal__close {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    top: 12px;
+    right: 12px;
+  }
+
+  .donate-grid {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .bank-card {
+    flex: none;
+    width: 100%;
+  }
+
+  .donate-header h2 {
+    font-size: 18px;
+  }
+
+  .donate-header__tagline {
+    font-size: 14px;
+  }
+
+  .donate-header__sub {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 400px) {
+  .rm-modal {
+    padding: 18px 12px 16px;
+  }
+
+  .bank-card__iban-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .copy-btn {
+    align-self: flex-end;
+  }
+
+  .bank-card__iban-text {
+    font-size: 10px;
+  }
+
+  .bank-card__name {
+    font-size: 12px;
+  }
+
+  .bank-card__value {
+    font-size: 11px;
+  }
+
+  .donate-header h2 {
+    font-size: 16px;
+  }
+
+  .bank__star--s2, .bank__star--s4 {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=saya_app_page_banks_bank_css_bad6b30c._.single.css.map*/

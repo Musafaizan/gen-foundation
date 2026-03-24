@@ -1,0 +1,27 @@
+[00:00:01.815] Server  LOG     ✓ Ready in 1205ms
+[00:00:12.894] Server  LOG     ○ Compiling / ...
+[00:00:15.772] Server  WARN    ⚠ ./saya/public/assets/widowsaya.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./saya/public/assets/widowsaya.avif
+    ./saya/app/page/facilities/page.jsx [Client Component SSR]
+    ./saya/app/page.js [Client Component SSR]
+    ./saya/app/page.js [Server Component]
+
+
+[00:00:18.240] Server  WARN    ⚠ ./saya/public/assets/widowsaya.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./saya/public/assets/widowsaya.avif
+    ./saya/app/page/facilities/page.jsx [Client Component SSR]
+    ./saya/app/page.js [Client Component SSR]
+    ./saya/app/page.js [Server Component]
+
+
+[00:00:19.585] Browser WARN    Image with src "/_next/static/media/boyimg.950c0030.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
