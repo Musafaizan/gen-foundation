@@ -4495,6 +4495,51 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$reac
 var __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$react$2d$icons$2f$gi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/saya/node_modules/react-icons/gi/index.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$react$2d$icons$2f$pi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/saya/node_modules/react-icons/pi/index.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$react$2d$icons$2f$go$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/saya/node_modules/react-icons/go/index.mjs [app-client] (ecmascript)");
+(()=>{
+    const e = new Error("Cannot find module '../../../public/assets/help1.jpg'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../../../public/assets/help2.jpg'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../../../public/assets/help3.jpg'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../../../public/assets/help4.jpg'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../../../public/assets/help5.jpg'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../../../public/assets/help6.jpg'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../../../public/assets/help7.jpg'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../../../public/assets/help8.jpg'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../../../public/assets/help9.jpg'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 var __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$public$2f$assets$2f$saya2$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$saya$2f$public$2f$assets$2f$saya2$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/saya/public/assets/saya2.jpg.mjs { IMAGE => "[project]/saya/public/assets/saya2.jpg (static in ecmascript, tag client)" } [app-client] (structured image object with data url, ecmascript)');
 ;
 var _s = __turbopack_context__.k.signature();
@@ -4508,14 +4553,23 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
+;
+;
+;
+;
+;
+;
+;
+;
+;
 const Ramadan = ()=>{
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(46);
-    if ($[0] !== "b93a4b761d6c38e3d60b49bf1280d410c49d71c3f4d7e20f7293b8178367e086") {
+    if ($[0] !== "71aae0de5137ac2efde39781e1c04423dded5138037fa9f4e41356106644c2e6") {
         for(let $i = 0; $i < 46; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "b93a4b761d6c38e3d60b49bf1280d410c49d71c3f4d7e20f7293b8178367e086";
+        $[0] = "71aae0de5137ac2efde39781e1c04423dded5138037fa9f4e41356106644c2e6";
     }
     const [activeSection, setActiveSection] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     const wrapperRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
@@ -4594,7 +4648,7 @@ const Ramadan = ()=>{
             className: "ramadan__overlay"
         }, void 0, false, {
             fileName: "[project]/saya/app/page/package/page.jsx",
-            lineNumber: 93,
+            lineNumber: 102,
             columnNumber: 10
         }, ("TURBOPACK compile-time value", void 0));
         $[7] = t6;
@@ -4610,7 +4664,7 @@ const Ramadan = ()=>{
             children: "Blessed Month"
         }, void 0, false, {
             fileName: "[project]/saya/app/page/package/page.jsx",
-            lineNumber: 102,
+            lineNumber: 111,
             columnNumber: 10
         }, ("TURBOPACK compile-time value", void 0));
         t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -4618,14 +4672,14 @@ const Ramadan = ()=>{
             children: "Ramadan Programs"
         }, void 0, false, {
             fileName: "[project]/saya/app/page/package/page.jsx",
-            lineNumber: 103,
+            lineNumber: 112,
             columnNumber: 10
         }, ("TURBOPACK compile-time value", void 0));
         t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "ramadan__divider"
         }, void 0, false, {
             fileName: "[project]/saya/app/page/package/page.jsx",
-            lineNumber: 104,
+            lineNumber: 113,
             columnNumber: 10
         }, ("TURBOPACK compile-time value", void 0));
         $[8] = t7;
@@ -4651,20 +4705,20 @@ const Ramadan = ()=>{
                             children: "Ramadan Activities"
                         }, void 0, false, {
                             fileName: "[project]/saya/app/page/package/page.jsx",
-                            lineNumber: 115,
+                            lineNumber: 124,
                             columnNumber: 89
                         }, ("TURBOPACK compile-time value", void 0)),
                         " — During the blessed month of Ramadan, we intensify our efforts to reach more families and spread the spirit of giving."
                     ]
                 }, void 0, true, {
                     fileName: "[project]/saya/app/page/package/page.jsx",
-                    lineNumber: 115,
+                    lineNumber: 124,
                     columnNumber: 56
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/saya/app/page/package/page.jsx",
-            lineNumber: 115,
+            lineNumber: 124,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0));
         $[11] = t10;
@@ -4682,33 +4736,33 @@ const Ramadan = ()=>{
             alt: "Ration Drive"
         }, void 0, false, {
             fileName: "[project]/saya/app/page/package/page.jsx",
-            lineNumber: 126,
+            lineNumber: 135,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0));
         t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
             children: "01"
         }, void 0, false, {
             fileName: "[project]/saya/app/page/package/page.jsx",
-            lineNumber: 127,
+            lineNumber: 136,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0));
         t13 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaHandHoldingUsd"], {}, void 0, false, {
             fileName: "[project]/saya/app/page/package/page.jsx",
-            lineNumber: 128,
+            lineNumber: 137,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0));
         t14 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
             children: "Ramadan Ration Drive"
         }, void 0, false, {
             fileName: "[project]/saya/app/page/package/page.jsx",
-            lineNumber: 129,
+            lineNumber: 138,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0));
         t15 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
             children: "Distributing essential food packages to families, ensuring no one goes hungry during the blessed month."
         }, void 0, false, {
             fileName: "[project]/saya/app/page/package/page.jsx",
-            lineNumber: 130,
+            lineNumber: 139,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0));
         $[12] = t11;
@@ -4741,13 +4795,13 @@ const Ramadan = ()=>{
                     }
                 }, void 0, false, {
                     fileName: "[project]/saya/app/page/package/page.jsx",
-                    lineNumber: 145,
+                    lineNumber: 154,
                     columnNumber: 66
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/saya/app/page/package/page.jsx",
-            lineNumber: 145,
+            lineNumber: 154,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0));
         $[17] = t16;
@@ -4774,7 +4828,7 @@ const Ramadan = ()=>{
                     children: "×"
                 }, void 0, false, {
                     fileName: "[project]/saya/app/page/package/page.jsx",
-                    lineNumber: 155,
+                    lineNumber: 164,
                     columnNumber: 67
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -4782,7 +4836,7 @@ const Ramadan = ()=>{
                     children: "Ramadan Ration Packages"
                 }, void 0, false, {
                     fileName: "[project]/saya/app/page/package/page.jsx",
-                    lineNumber: 164,
+                    lineNumber: 173,
                     columnNumber: 20
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4790,7 +4844,7 @@ const Ramadan = ()=>{
                     children: "Your generosity ensures families receive complete, nutritious food packages."
                 }, void 0, false, {
                     fileName: "[project]/saya/app/page/package/page.jsx",
-                    lineNumber: 164,
+                    lineNumber: 173,
                     columnNumber: 76
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4804,7 +4858,7 @@ const Ramadan = ()=>{
                                     children: "Essential Package"
                                 }, void 0, false, {
                                     fileName: "[project]/saya/app/page/package/page.jsx",
-                                    lineNumber: 164,
+                                    lineNumber: 173,
                                     columnNumber: 241
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4812,7 +4866,7 @@ const Ramadan = ()=>{
                                     children: "Family of 4 for one week"
                                 }, void 0, false, {
                                     fileName: "[project]/saya/app/page/package/page.jsx",
-                                    lineNumber: 164,
+                                    lineNumber: 173,
                                     columnNumber: 292
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -4820,7 +4874,7 @@ const Ramadan = ()=>{
                                     children: "$20"
                                 }, void 0, false, {
                                     fileName: "[project]/saya/app/page/package/page.jsx",
-                                    lineNumber: 164,
+                                    lineNumber: 173,
                                     columnNumber: 351
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -4830,62 +4884,62 @@ const Ramadan = ()=>{
                                             children: "5kg Premium Rice"
                                         }, void 0, false, {
                                             fileName: "[project]/saya/app/page/package/page.jsx",
-                                            lineNumber: 164,
+                                            lineNumber: 173,
                                             columnNumber: 419
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "2kg Flour (Atta)"
                                         }, void 0, false, {
                                             fileName: "[project]/saya/app/page/package/page.jsx",
-                                            lineNumber: 164,
+                                            lineNumber: 173,
                                             columnNumber: 444
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "1L Cooking Oil"
                                         }, void 0, false, {
                                             fileName: "[project]/saya/app/page/package/page.jsx",
-                                            lineNumber: 164,
+                                            lineNumber: 173,
                                             columnNumber: 469
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "1kg Sugar"
                                         }, void 0, false, {
                                             fileName: "[project]/saya/app/page/package/page.jsx",
-                                            lineNumber: 164,
+                                            lineNumber: 173,
                                             columnNumber: 492
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "500g Tea Leaves"
                                         }, void 0, false, {
                                             fileName: "[project]/saya/app/page/package/page.jsx",
-                                            lineNumber: 164,
+                                            lineNumber: 173,
                                             columnNumber: 510
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "1kg Lentils (Dal)"
                                         }, void 0, false, {
                                             fileName: "[project]/saya/app/page/package/page.jsx",
-                                            lineNumber: 164,
+                                            lineNumber: 173,
                                             columnNumber: 534
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "500g Salt"
                                         }, void 0, false, {
                                             fileName: "[project]/saya/app/page/package/page.jsx",
-                                            lineNumber: 164,
+                                            lineNumber: 173,
                                             columnNumber: 560
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Dates (1kg)"
                                         }, void 0, false, {
                                             fileName: "[project]/saya/app/page/package/page.jsx",
-                                            lineNumber: 164,
+                                            lineNumber: 173,
                                             columnNumber: 578
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/saya/app/page/package/page.jsx",
-                                    lineNumber: 164,
+                                    lineNumber: 173,
                                     columnNumber: 389
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -4894,13 +4948,13 @@ const Ramadan = ()=>{
                                     children: "Sponsor This Package"
                                 }, void 0, false, {
                                     fileName: "[project]/saya/app/page/package/page.jsx",
-                                    lineNumber: 164,
+                                    lineNumber: 173,
                                     columnNumber: 603
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/saya/app/page/package/page.jsx",
-                            lineNumber: 164,
+                            lineNumber: 173,
                             columnNumber: 211
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4911,7 +4965,7 @@ const Ramadan = ()=>{
                                     children: "Most Popular"
                                 }, void 0, false, {
                                     fileName: "[project]/saya/app/page/package/page.jsx",
-                                    lineNumber: 164,
+                                    lineNumber: 173,
                                     columnNumber: 738
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -4919,7 +4973,7 @@ const Ramadan = ()=>{
                                     children: "Complete Family Package"
                                 }, void 0, false, {
                                     fileName: "[project]/saya/app/page/package/page.jsx",
-                                    lineNumber: 164,
+                                    lineNumber: 173,
                                     columnNumber: 789
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4927,7 +4981,7 @@ const Ramadan = ()=>{
                                     children: "Family of 5 for two weeks"
                                 }, void 0, false, {
                                     fileName: "[project]/saya/app/page/package/page.jsx",
-                                    lineNumber: 164,
+                                    lineNumber: 173,
                                     columnNumber: 846
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -4935,7 +4989,7 @@ const Ramadan = ()=>{
                                     children: "$30"
                                 }, void 0, false, {
                                     fileName: "[project]/saya/app/page/package/page.jsx",
-                                    lineNumber: 164,
+                                    lineNumber: 173,
                                     columnNumber: 906
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -4945,83 +4999,83 @@ const Ramadan = ()=>{
                                             children: "5kg Flour (Atta)"
                                         }, void 0, false, {
                                             fileName: "[project]/saya/app/page/package/page.jsx",
-                                            lineNumber: 164,
+                                            lineNumber: 173,
                                             columnNumber: 974
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "3kg Premium Basmati Rice"
                                         }, void 0, false, {
                                             fileName: "[project]/saya/app/page/package/page.jsx",
-                                            lineNumber: 164,
+                                            lineNumber: 173,
                                             columnNumber: 999
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "2kg Sugar"
                                         }, void 0, false, {
                                             fileName: "[project]/saya/app/page/package/page.jsx",
-                                            lineNumber: 164,
+                                            lineNumber: 173,
                                             columnNumber: 1032
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "3L Cooking Oil"
                                         }, void 0, false, {
                                             fileName: "[project]/saya/app/page/package/page.jsx",
-                                            lineNumber: 164,
+                                            lineNumber: 173,
                                             columnNumber: 1050
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "1/2kg Tea Leaves"
                                         }, void 0, false, {
                                             fileName: "[project]/saya/app/page/package/page.jsx",
-                                            lineNumber: 164,
+                                            lineNumber: 173,
                                             columnNumber: 1073
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "4kg Mixed Lentils"
                                         }, void 0, false, {
                                             fileName: "[project]/saya/app/page/package/page.jsx",
-                                            lineNumber: 164,
+                                            lineNumber: 173,
                                             columnNumber: 1098
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Salt"
                                         }, void 0, false, {
                                             fileName: "[project]/saya/app/page/package/page.jsx",
-                                            lineNumber: 164,
+                                            lineNumber: 173,
                                             columnNumber: 1124
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Dates (1/2kg)"
                                         }, void 0, false, {
                                             fileName: "[project]/saya/app/page/package/page.jsx",
-                                            lineNumber: 164,
+                                            lineNumber: 173,
                                             columnNumber: 1137
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Spice Box (Complete)"
                                         }, void 0, false, {
                                             fileName: "[project]/saya/app/page/package/page.jsx",
-                                            lineNumber: 164,
+                                            lineNumber: 173,
                                             columnNumber: 1159
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Vermicelli (Seviyan)"
                                         }, void 0, false, {
                                             fileName: "[project]/saya/app/page/package/page.jsx",
-                                            lineNumber: 164,
+                                            lineNumber: 173,
                                             columnNumber: 1188
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Gram Flour Dumplings 1/2kg"
                                         }, void 0, false, {
                                             fileName: "[project]/saya/app/page/package/page.jsx",
-                                            lineNumber: 164,
+                                            lineNumber: 173,
                                             columnNumber: 1217
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/saya/app/page/package/page.jsx",
-                                    lineNumber: 164,
+                                    lineNumber: 173,
                                     columnNumber: 944
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -5030,25 +5084,25 @@ const Ramadan = ()=>{
                                     children: "Sponsor This Package"
                                 }, void 0, false, {
                                     fileName: "[project]/saya/app/page/package/page.jsx",
-                                    lineNumber: 164,
+                                    lineNumber: 173,
                                     columnNumber: 1257
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/saya/app/page/package/page.jsx",
-                            lineNumber: 164,
+                            lineNumber: 173,
                             columnNumber: 699
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/saya/app/page/package/page.jsx",
-                    lineNumber: 164,
+                    lineNumber: 173,
                     columnNumber: 182
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/saya/app/page/package/page.jsx",
-            lineNumber: 155,
+            lineNumber: 164,
             columnNumber: 43
         }, ("TURBOPACK compile-time value", void 0));
         $[18] = activeSection;
@@ -5066,7 +5120,7 @@ const Ramadan = ()=>{
             ]
         }, void 0, true, {
             fileName: "[project]/saya/app/page/package/page.jsx",
-            lineNumber: 172,
+            lineNumber: 181,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0));
         $[20] = t17;
@@ -5085,33 +5139,33 @@ const Ramadan = ()=>{
             alt: "Iftar for the Needy"
         }, void 0, false, {
             fileName: "[project]/saya/app/page/package/page.jsx",
-            lineNumber: 184,
+            lineNumber: 193,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0));
         t20 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$react$2d$icons$2f$gi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["GiPeaceDove"], {}, void 0, false, {
             fileName: "[project]/saya/app/page/package/page.jsx",
-            lineNumber: 185,
+            lineNumber: 194,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0));
         t21 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
             children: "02"
         }, void 0, false, {
             fileName: "[project]/saya/app/page/package/page.jsx",
-            lineNumber: 186,
+            lineNumber: 195,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0));
         t22 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
             children: "Iftar for the Needy"
         }, void 0, false, {
             fileName: "[project]/saya/app/page/package/page.jsx",
-            lineNumber: 187,
+            lineNumber: 196,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0));
         t23 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
             children: "Organizing Iftar gatherings for underprivileged families and individuals in our community."
         }, void 0, false, {
             fileName: "[project]/saya/app/page/package/page.jsx",
-            lineNumber: 188,
+            lineNumber: 197,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0));
         $[22] = t19;
@@ -5144,13 +5198,13 @@ const Ramadan = ()=>{
                     }
                 }, void 0, false, {
                     fileName: "[project]/saya/app/page/package/page.jsx",
-                    lineNumber: 203,
+                    lineNumber: 212,
                     columnNumber: 66
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/saya/app/page/package/page.jsx",
-            lineNumber: 203,
+            lineNumber: 212,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0));
         $[27] = t24;
@@ -5177,7 +5231,7 @@ const Ramadan = ()=>{
                     children: "×"
                 }, void 0, false, {
                     fileName: "[project]/saya/app/page/package/page.jsx",
-                    lineNumber: 213,
+                    lineNumber: 222,
                     columnNumber: 64
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -5185,7 +5239,7 @@ const Ramadan = ()=>{
                     children: "Ramadan 2026 - Lahore"
                 }, void 0, false, {
                     fileName: "[project]/saya/app/page/package/page.jsx",
-                    lineNumber: 222,
+                    lineNumber: 231,
                     columnNumber: 20
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5193,7 +5247,7 @@ const Ramadan = ()=>{
                     children: "We are arranging Iftar drives in Ramadan 2026 in Lahore for underprivileged families and individuals. Come forward and support us in spreading the blessings of Ramadan to those who need it most."
                 }, void 0, false, {
                     fileName: "[project]/saya/app/page/package/page.jsx",
-                    lineNumber: 222,
+                    lineNumber: 231,
                     columnNumber: 74
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5204,7 +5258,7 @@ const Ramadan = ()=>{
                             children: "🤲"
                         }, void 0, false, {
                             fileName: "[project]/saya/app/page/package/page.jsx",
-                            lineNumber: 222,
+                            lineNumber: 231,
                             columnNumber: 326
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5212,13 +5266,13 @@ const Ramadan = ()=>{
                             children: "Your contribution can help us serve Iftar to hundreds of needy people"
                         }, void 0, false, {
                             fileName: "[project]/saya/app/page/package/page.jsx",
-                            lineNumber: 222,
+                            lineNumber: 231,
                             columnNumber: 365
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/saya/app/page/package/page.jsx",
-                    lineNumber: 222,
+                    lineNumber: 231,
                     columnNumber: 298
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -5227,13 +5281,13 @@ const Ramadan = ()=>{
                     children: "Donate for Iftar Drive"
                 }, void 0, false, {
                     fileName: "[project]/saya/app/page/package/page.jsx",
-                    lineNumber: 222,
+                    lineNumber: 231,
                     columnNumber: 475
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/saya/app/page/package/page.jsx",
-            lineNumber: 213,
+            lineNumber: 222,
             columnNumber: 40
         }, ("TURBOPACK compile-time value", void 0));
         $[28] = activeSection;
@@ -5251,7 +5305,7 @@ const Ramadan = ()=>{
             ]
         }, void 0, true, {
             fileName: "[project]/saya/app/page/package/page.jsx",
-            lineNumber: 230,
+            lineNumber: 239,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0));
         $[30] = t25;
@@ -5267,14 +5321,14 @@ const Ramadan = ()=>{
     if ($[32] === Symbol.for("react.memo_cache_sentinel")) {
         t27 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$react$2d$icons$2f$pi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PiPottedPlantFill"], {}, void 0, false, {
             fileName: "[project]/saya/app/page/package/page.jsx",
-            lineNumber: 242,
+            lineNumber: 251,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0));
         t28 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
             children: "03"
         }, void 0, false, {
             fileName: "[project]/saya/app/page/package/page.jsx",
-            lineNumber: 243,
+            lineNumber: 252,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0));
         t29 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -5282,21 +5336,21 @@ const Ramadan = ()=>{
             alt: "Iftar for Orphans"
         }, void 0, false, {
             fileName: "[project]/saya/app/page/package/page.jsx",
-            lineNumber: 244,
+            lineNumber: 253,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0));
         t30 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
             children: "Iftar for Orphans"
         }, void 0, false, {
             fileName: "[project]/saya/app/page/package/page.jsx",
-            lineNumber: 245,
+            lineNumber: 254,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0));
         t31 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
             children: "Special Iftar programs dedicated to orphaned children, bringing joy and warmth to their hearts."
         }, void 0, false, {
             fileName: "[project]/saya/app/page/package/page.jsx",
-            lineNumber: 246,
+            lineNumber: 255,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0));
         $[32] = t27;
@@ -5329,13 +5383,13 @@ const Ramadan = ()=>{
                     }
                 }, void 0, false, {
                     fileName: "[project]/saya/app/page/package/page.jsx",
-                    lineNumber: 261,
+                    lineNumber: 270,
                     columnNumber: 66
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/saya/app/page/package/page.jsx",
-            lineNumber: 261,
+            lineNumber: 270,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0));
         $[37] = t32;
@@ -5362,7 +5416,7 @@ const Ramadan = ()=>{
                     children: "×"
                 }, void 0, false, {
                     fileName: "[project]/saya/app/page/package/page.jsx",
-                    lineNumber: 271,
+                    lineNumber: 280,
                     columnNumber: 65
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -5370,7 +5424,7 @@ const Ramadan = ()=>{
                     children: "Orphanage Iftar Program"
                 }, void 0, false, {
                     fileName: "[project]/saya/app/page/package/page.jsx",
-                    lineNumber: 280,
+                    lineNumber: 289,
                     columnNumber: 20
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5378,7 +5432,7 @@ const Ramadan = ()=>{
                     children: "We are arranging Iftar in orphanages to bring joy and warmth to orphaned children during the blessed month of Ramadan. Your support helps us create memorable moments for these children."
                 }, void 0, false, {
                     fileName: "[project]/saya/app/page/package/page.jsx",
-                    lineNumber: 280,
+                    lineNumber: 289,
                     columnNumber: 76
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5389,7 +5443,7 @@ const Ramadan = ()=>{
                             children: "🤲"
                         }, void 0, false, {
                             fileName: "[project]/saya/app/page/package/page.jsx",
-                            lineNumber: 280,
+                            lineNumber: 289,
                             columnNumber: 319
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5397,13 +5451,13 @@ const Ramadan = ()=>{
                             children: "Help us bring smiles to orphaned children this Ramadan"
                         }, void 0, false, {
                             fileName: "[project]/saya/app/page/package/page.jsx",
-                            lineNumber: 280,
+                            lineNumber: 289,
                             columnNumber: 358
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/saya/app/page/package/page.jsx",
-                    lineNumber: 280,
+                    lineNumber: 289,
                     columnNumber: 291
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$saya$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -5412,13 +5466,13 @@ const Ramadan = ()=>{
                     children: "Donate for Orphan Iftar"
                 }, void 0, false, {
                     fileName: "[project]/saya/app/page/package/page.jsx",
-                    lineNumber: 280,
+                    lineNumber: 289,
                     columnNumber: 453
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/saya/app/page/package/page.jsx",
-            lineNumber: 271,
+            lineNumber: 280,
             columnNumber: 41
         }, ("TURBOPACK compile-time value", void 0));
         $[38] = activeSection;
@@ -5436,7 +5490,7 @@ const Ramadan = ()=>{
             ]
         }, void 0, true, {
             fileName: "[project]/saya/app/page/package/page.jsx",
-            lineNumber: 288,
+            lineNumber: 297,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0));
         $[40] = t33;
@@ -5465,19 +5519,19 @@ const Ramadan = ()=>{
                             ]
                         }, void 0, true, {
                             fileName: "[project]/saya/app/page/package/page.jsx",
-                            lineNumber: 296,
+                            lineNumber: 305,
                             columnNumber: 95
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/saya/app/page/package/page.jsx",
-                    lineNumber: 296,
+                    lineNumber: 305,
                     columnNumber: 58
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/saya/app/page/package/page.jsx",
-            lineNumber: 296,
+            lineNumber: 305,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0));
         $[42] = t18;

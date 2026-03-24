@@ -1,6 +1,6 @@
-[00:00:01.815] Server  LOG     ✓ Ready in 1205ms
-[00:00:12.894] Server  LOG     ○ Compiling / ...
-[00:00:15.772] Server  WARN    ⚠ ./saya/public/assets/widowsaya.avif
+[00:00:02.405] Server  LOG     ✓ Ready in 1609ms
+[00:00:05.568] Server  LOG     ○ Compiling / ...
+[00:00:09.666] Server  WARN    ⚠ ./saya/public/assets/widowsaya.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -12,7 +12,7 @@ Import trace:
     ./saya/app/page.js [Server Component]
 
 
-[00:00:18.240] Server  WARN    ⚠ ./saya/public/assets/widowsaya.avif
+[00:00:10.436] Server  WARN    ⚠ ./saya/public/assets/widowsaya.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -24,4 +24,20 @@ Import trace:
     ./saya/app/page.js [Server Component]
 
 
-[00:00:19.585] Browser WARN    Image with src "/_next/static/media/boyimg.950c0030.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:12.097] Server  WARN    ⚠ ./saya/public/assets/widowsaya.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./saya/public/assets/widowsaya.avif
+    ./saya/app/page/facilities/page.jsx [Client Component SSR]
+    ./saya/app/page.js [Client Component SSR]
+    ./saya/app/page.js [Server Component]
+
+
+[00:00:12.857] Browser WARN    Image with src "/_next/static/media/boyimg.950c0030.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:51.391] Server  LOG     ✓ Compiled in 680ms
+[00:04:18.400] Server  LOG     ✓ Compiled in 64ms
+[00:08:40.725] Server  LOG     ✓ Compiled in 66ms
+[00:09:01.062] Server  LOG     ✓ Compiled in 208ms
