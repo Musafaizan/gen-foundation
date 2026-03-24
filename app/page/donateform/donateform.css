@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;0,900;1,400&family=Dancing+Script:wght@600&display=swap');
+
+/* ════════════════════════════════════════
+   ── Backdrop ──
+════════════════════════════════════════ */
+.dform__backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: rgba(5, 10, 20, 0.75);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  animation: backdropIn 0.28s ease;
+}
+
+@keyframes backdropIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* ════════════════════════════════════════
+   ── Modal ──
+════════════════════════════════════════ */
+.dform__modal {
+  position: relative;
+  background: #162436;
+  border-radius: 22px;
+  width: 100%;
+  max-width: 400px;
+  padding: 0 0 28px;
+  overflow: hidden;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.07),
+    0 24px 64px rgba(0, 0, 0, 0.55),
+    0 8px 24px rgba(0, 0, 0, 0.35),
+    0 0 80px rgba(245, 166, 35, 0.06);
+  animation: modalIn 0.36s cubic-bezier(0.22, 1, 0.36, 1);
+  font-family: 'DM Sans', sans-serif;
+}
+
+@keyframes modalIn {
+  from { opacity: 0; transform: translateY(24px) scale(0.96); }
+  to   { opacity: 1; transform: translateY(0)     scale(1);    }
+}
+
+/* ── Top bar — gold → green ── */
+.dform__top-bar {
+  height: 5px;
+  background: linear-gradient(90deg, #f5a623, #3ecf8e, #f5a623);
+  background-size: 200% 100%;
+  width: 100%;
+  flex-shrink: 0;
+  animation: shimmerBar 3s linear infinite;
+}
+
+@keyframes shimmerBar {
+  0%   { background-position: 0% 0%; }
+  100% { background-position: 200% 0%; }
+}
+
+/* ── Close button ── */
+.dform__close {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.06);
+  color: #64748b;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  transition: background 0.18s ease, color 0.18s ease, transform 0.22s ease, border-color 0.18s ease;
+}
+
+.dform__close:hover {
+  background: rgba(239, 68, 68, 0.15);
+  border-color: rgba(239, 68, 68, 0.35);
+  color: #ef4444;
+  transform: rotate(90deg) scale(1.1);
+}
+
+/* ════════════════════════════════════════
+   ── Header ──
+════════════════════════════════════════ */
+.dform__header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 22px 28px 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Heart bubble — gold → green */
+.dform__heart-wrap {
+  width: 46px;
+  height: 46px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(245,166,35,0.15), rgba(62,207,142,0.15));
+  border: 1.5px solid rgba(245, 166, 35, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow:
+    0 4px 14px rgba(245, 166, 35, 0.18),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+.dform__heart {
+  animation: heartPulse 1.9s ease-in-out infinite;
+}
+
+@keyframes heartPulse {
+  0%, 100% { transform: scale(1);    }
+  30%       { transform: scale(1.28); }
+  55%       { transform: scale(1);    }
+  75%       { transform: scale(1.14); }
+}
+
+.dform__header-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.dform__title {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 17px;
+  font-weight: 900;
+  color: #f1f5f9;
+  margin: 0;
+  letter-spacing: -0.2px;
+}
+
+.dform__subtitle {
+  font-size: 13px;
+  color: #64748b;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Amount highlight — gold → green gradient text */
+.dform__amount {
+  font-weight: 800;
+  background: linear-gradient(90deg, #f5a623, #3ecf8e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ════════════════════════════════════════
+   ── Form ──
+════════════════════════════════════════ */
+.dform__form {
+  padding: 20px 28px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.dform__field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.dform__label {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: #94a3b8;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Label icon — gold accent */
+.dform__label-icon {
+  color: #f5a623;
+  flex-shrink: 0;
+}
+
+/* Input wrapper */
+.dform__input-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 1.5px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  background: #0f1c2e;
+  transition:
+    border-color 0.2s ease,
+    background   0.2s ease,
+    box-shadow   0.2s ease;
+  overflow: hidden;
+}
+
+/* Focus — gold border + glow */
+.dform__input-wrap:focus-within {
+  border-color: #f5a623;
+  background: #0f1c2e;
+  box-shadow:
+    0 0 0 3px rgba(245, 166, 35, 0.12),
+    inset 0 1px 0 rgba(245, 166, 35, 0.05);
+}
+
+.dform__input-wrap--error {
+  border-color: #ef4444;
+  background: rgba(239, 68, 68, 0.05);
+}
+
+.dform__input-wrap--error:focus-within {
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.12);
+}
+
+/* Input icon */
+.dform__input-icon {
+  display: flex;
+  align-items: center;
+  padding: 0 12px 0 14px;
+  color: #334155;
+  flex-shrink: 0;
+  transition: color 0.2s ease;
+}
+
+.dform__input-wrap:focus-within .dform__input-icon {
+  color: #f5a623;
+}
+
+.dform__input-wrap--error .dform__input-icon {
+  color: #ef4444;
+}
+
+.dform__input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #e2e8f0;
+  padding: 11px 14px 11px 0;
+  width: 100%;
+}
+
+.dform__input::placeholder {
+  color: #334155;
+  font-weight: 400;
+}
+
+/* Inline error */
+.dform__error {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: #f87171;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding-left: 2px;
+}
+
+.dform__error::before {
+  content: '⚠';
+  font-size: 10px;
+}
+
+/* ════════════════════════════════════════
+   ── Submit Button — gold → green ──
+════════════════════════════════════════ */
+.dform__submit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 13px 24px;
+  margin-top: 6px;
+  border-radius: 50px;
+  border: none;
+  background: linear-gradient(90deg, #f5a623, #3ecf8e, #f5a623);
+  background-size: 200% 100%;
+  background-position: 0% 50%;
+  color: #0f1c2e;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow:
+    0 8px 24px rgba(245, 166, 35, 0.28),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  transition:
+    background-position 0.4s ease,
+    transform           0.25s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow          0.25s ease;
+}
+
+.dform__submit:hover:not(:disabled) {
+  background-position: 100% 50%;
+  transform: translateY(-2px);
+  box-shadow:
+    0 14px 36px rgba(245, 166, 35, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.dform__submit:active:not(:disabled) {
+  transform: translateY(0px);
+  box-shadow: 0 4px 14px rgba(245, 166, 35, 0.28);
+}
+
+.dform__submit:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* Done / success variant */
+.dform__submit--done {
+  background: linear-gradient(135deg, #3ecf8e 0%, #28a870 100%);
+  background-size: 200% 100%;
+  background-position: 0% 50%;
+  color: #0f1c2e;
+  box-shadow: 0 6px 20px rgba(62, 207, 142, 0.35);
+}
+
+.dform__submit--done:hover:not(:disabled) {
+  background-position: 100% 50%;
+  box-shadow: 0 10px 28px rgba(62, 207, 142, 0.48);
+}
+
+/* Spinning loader icon */
+.dform__spinner-icon {
+  animation: spin 0.8s linear infinite;
+  flex-shrink: 0;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* ── Secure note ── */
+.dform__secure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin: 14px 28px 0;
+  font-size: 11px;
+  color: #334155;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* ════════════════════════════════════════
+   ── Success State ──
+════════════════════════════════════════ */
+.dform__success {
+  padding: 36px 28px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+}
+
+/* Outer ring pulse — gold tint */
+.dform__success-ring {
+  position: relative;
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dform__success-ring::before {
+  content: '';
+  position: absolute;
+  inset: -6px;
+  border-radius: 50%;
+  border: 2px solid rgba(245, 166, 35, 0.3);
+  animation: ringPulse 1.6s ease-out infinite;
+}
+
+.dform__success-ring::after {
+  content: '';
+  position: absolute;
+  inset: -14px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(62, 207, 142, 0.15);
+  animation: ringPulse 1.6s ease-out infinite 0.4s;
+}
+
+@keyframes ringPulse {
+  0%   { transform: scale(0.9); opacity: 0; }
+  50%  { opacity: 1; }
+  100% { transform: scale(1.2); opacity: 0; }
+}
+
+/* Success icon — gold → green gradient */
+.dform__success-icon {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #f5a623, #3ecf8e);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0f1c2e;
+  box-shadow:
+    0 10px 28px rgba(245, 166, 35, 0.35),
+    0 0 0 1px rgba(255, 255, 255, 0.08);
+  animation: successPop 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes successPop {
+  from { transform: scale(0.3); opacity: 0; }
+  to   { transform: scale(1);   opacity: 1; }
+}
+
+.dform__success-title {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+  color: #f1f5f9;
+  margin: 4px 0 0;
+  letter-spacing: -0.3px;
+}
+
+.dform__success-msg {
+  font-size: 13.5px;
+  color: #64748b;
+  line-height: 1.7;
+  margin: 0;
+  max-width: 280px;
+}
+
+/* Amount in success message — gradient text */
+.dform__success-msg strong {
+  font-weight: 800;
+  background: linear-gradient(90deg, #f5a623, #3ecf8e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ════════════════════════════════════════
+   ── Mobile ──
+════════════════════════════════════════ */
+@media (max-width: 480px) {
+  .dform__modal   { max-width: 100%; border-radius: 18px; }
+  .dform__header  { padding: 18px 22px 14px; }
+  .dform__form    { padding: 16px 22px 0; gap: 12px; }
+  .dform__secure  { margin: 12px 22px 0; }
+  .dform__modal   { padding-bottom: 22px; }
+}
+
+@media (max-width: 360px) {
+  .dform__backdrop   { padding: 12px; }
+  .dform__header     { gap: 10px; }
+  .dform__heart-wrap { width: 40px; height: 40px; border-radius: 12px; }
+  .dform__title      { font-size: 15px; }
+  .dform__form       { padding: 14px 18px 0; }
+  .dform__submit     { font-size: 12px; padding: 12px 20px; }
+  .dform__secure     { margin: 10px 18px 0; }
+  .dform__modal      { padding-bottom: 18px; }
+}

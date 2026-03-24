@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800;900&family=Outfit:wght@700;800&display=swap');
+
+/* ══════════════════════════════════════
+   FOOTER — DARK THEME
+══════════════════════════════════════ */
+.ft {
+  background: #0b1628;
+  font-family: 'DM Sans', sans-serif;
+  padding: 0 80px 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* ── ambient glow blobs ── */
+.ft::before {
+  content: '';
+  position: absolute;
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(245,166,35,0.07) 0%, transparent 65%);
+  top: -140px;
+  right: -100px;
+  pointer-events: none;
+}
+
+.ft::after {
+  content: '';
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(62,207,142,0.06) 0%, transparent 65%);
+  bottom: -80px;
+  left: -60px;
+  pointer-events: none;
+}
+
+/* ── top shimmer line ── */
+.ft__accent {
+  height: 3px;
+  background: linear-gradient(90deg, #f5a623, #3ecf8e, #f5a623);
+  background-size: 200% 100%;
+  animation: ftShimmer 4s linear infinite;
+  margin-bottom: 52px;
+}
+
+@keyframes ftShimmer {
+  0%   { background-position: 0% 0%;   }
+  100% { background-position: 200% 0%; }
+}
+
+.ft__container {
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* ══════════════════════════════════════
+   MAIN ROW
+══════════════════════════════════════ */
+.ft__main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 52px;
+}
+
+/* ── Left ── */
+.ft__left {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 480px;
+}
+
+.ft__pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: rgba(245,166,35,0.1);
+  border: 1.5px solid rgba(245,166,35,0.22);
+  color: #f5a623;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: 99px;
+  width: fit-content;
+}
+
+.ft__headline {
+  font-family: 'Outfit', sans-serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800;
+  color: #f1f5f9;
+  line-height: 1.15;
+  margin: 0;
+  letter-spacing: -0.5px;
+}
+
+.ft__headline em {
+  font-style: normal;
+  background: linear-gradient(90deg, #f5a623, #3ecf8e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.ft__tagline {
+  font-size: 13px;
+  color: #475569;
+  margin: 0;
+  line-height: 1.7;
+}
+
+/* ── Right ── */
+.ft__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+  padding-top: 4px;
+}
+
+.ft__label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11.5px;
+  font-weight: 600;
+  color: #334155;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.ft__email {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'Outfit', sans-serif;
+  font-size: clamp(1rem, 2.2vw, 1.35rem);
+  font-weight: 700;
+  color: #94a3b8;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 3px;
+  transition: color 0.25s ease;
+}
+
+.ft__email::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, #f5a623, #3ecf8e);
+  border-radius: 99px;
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.ft__email:hover { color: #f5a623; }
+.ft__email:hover::after { transform: scaleX(0.4); }
+
+.ft__email-icon {
+  color: #f5a623;
+  flex-shrink: 0;
+  transition: transform 0.25s ease;
+}
+.ft__email:hover .ft__email-icon { transform: translate(3px, -3px); }
+
+/* ══════════════════════════════════════
+   DIVIDER
+══════════════════════════════════════ */
+.ft__line {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.08), transparent);
+  margin: 0 0 24px;
+}
+
+/* ══════════════════════════════════════
+   BOTTOM BAR
+══════════════════════════════════════ */
+.ft__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Logo */
+.ft__logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.ft__logo-img {
+  width: 70px !important;
+  height: 70px !important;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+  opacity: 0.85;
+}
+
+.ft__logo-name {
+  font-size: 16px;
+  font-weight: 800;
+  color: #f1f5f9;
+  letter-spacing: 0.01em;
+}
+
+/* Copyright */
+.ft__copy {
+  font-size: 12px;
+  color: #334155;
+  margin: 0;
+  font-weight: 400;
+}
+
+/* Made with */
+.ft__made {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  color: #334155;
+  margin: 0;
+  font-weight: 500;
+}
+
+.ft__heart {
+  color: #ef4444;
+  flex-shrink: 0;
+  animation: ftHeartBeat 1.8s ease-in-out infinite;
+}
+
+@keyframes ftHeartBeat {
+  0%, 100% { transform: scale(1);    }
+  30%       { transform: scale(1.3);  }
+  55%       { transform: scale(1);    }
+  75%       { transform: scale(1.15); }
+}
+
+/* ══════════════════════════════════════
+   RESPONSIVE — Tablet
+══════════════════════════════════════ */
+@media (max-width: 768px) {
+  .ft         { padding: 0 28px 32px; }
+  .ft__accent { margin-bottom: 36px;  }
+
+  .ft__main {
+    flex-direction: column;
+    gap: 28px;
+    margin-bottom: 36px;
+  }
+
+  .ft__headline { font-size: 1.9rem;  }
+  .ft__email    { font-size: 1.05rem; }
+
+  .ft__bottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    text-align: center;
+  }
+}
+
+/* ══════════════════════════════════════
+   RESPONSIVE — Mobile
+══════════════════════════════════════ */
+@media (max-width: 480px) {
+  .ft         { padding: 0 20px 28px; }
+  .ft__accent { margin-bottom: 28px;  }
+
+  .ft__headline  { font-size: 1.6rem;  }
+  .ft__tagline   { font-size: 12.5px;  }
+  .ft__email     { font-size: 0.95rem; }
+  .ft__logo-img  { width: 58px !important; height: 58px !important; }
+  .ft__logo-name { font-size: 14px;    }
+  .ft__copy      { font-size: 11.5px;  }
+  .ft__made      { font-size: 11.5px;  }
+}
+
+@media (max-width: 360px) {
+  .ft__headline { font-size: 1.4rem;  }
+  .ft__email    { font-size: 0.88rem; }
+  .ft__logo-img { width: 50px !important; height: 50px !important; }
+}
