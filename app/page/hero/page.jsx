@@ -65,6 +65,7 @@ const Hero = ({ onDonateClick }) => {
             </svg>
             DONATE NOW
           </button>
+          
 
           {/* <button className="btn-explore">
             EXPLORE MORE
