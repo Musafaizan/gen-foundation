@@ -1,16 +1,14 @@
 'use client';
-import Image from 'next/image';
 import React, { useEffect, useRef } from 'react';
 import help1 from "../../../public/assets/help1.jpeg";
 import help2 from "../../../public/assets/help2.jpeg";
 import help3 from "../../../public/assets/help3.jpeg";
 import help4 from "../../../public/assets/help4.jpeg";
-import help5 from "../../../public/assets/help5.jpeg";  
+import help5 from "../../../public/assets/help5.jpeg";
 import help6 from "../../../public/assets/help6.jpeg";
-import help7 from "../../../public/assets/help7.jpeg";  
+import help7 from "../../../public/assets/help7.jpeg";
 import help8 from "../../../public/assets/help8.jpeg";
 import help9 from "../../../public/assets/help9.jpeg";
-
 
 import "./package.css";
 
@@ -27,10 +25,10 @@ const images = [
 ];
 
 const stats = [
-    { value: "5,000+", label: "Families Served"    },
-    { value: "12",     label: "Active Programs"    },
-    { value: "3",      label: "Cities Reached"     },
-    { value: "200+",   label: "Volunteers"         },
+    { value: "5,000+", label: "Families Served" },
+    { value: "12",     label: "Active Programs"  },
+    { value: "3",      label: "Cities Reached"   },
+    { value: "200+",   label: "Volunteers"        },
 ];
 
 const Efforts = () => {
@@ -57,12 +55,11 @@ const Efforts = () => {
     return (
         <section className="ef" ref={sectionRef} id="packages">
 
-            {/* ── Background texture ── */}
             <div className="ef__noise" aria-hidden />
 
             <div className="ef__container">
 
-                {/* ── Header ── */}
+                {/* Header */}
                 <div className="ef__header ef__animate">
                     <span className="ef__eyebrow">Our Work on the Ground</span>
                     <h2 className="ef__heading">
@@ -77,7 +74,7 @@ const Efforts = () => {
                     <div className="ef__rule" />
                 </div>
 
-                {/* ── Stats Row ── */}
+                {/* Stats */}
                 <div className="ef__stats ef__animate">
                     {stats.map((s, i) => (
                         <div className="ef__stat" key={i} style={{ '--i': i }}>
@@ -87,7 +84,7 @@ const Efforts = () => {
                     ))}
                 </div>
 
-                {/* ── Mosaic Grid ── */}
+                {/* Mosaic Grid */}
                 <div className="ef__grid">
                     {images.map((img, i) => (
                         <div
@@ -96,6 +93,7 @@ const Efforts = () => {
                             style={{ '--i': i }}
                         >
                             <div className="ef__cell-inner">
+                                {/* eslint-disable-next-line @next/next/no-img-element */}
                                 <img
                                     src={typeof img.src === 'object' ? img.src.src : img.src}
                                     alt={img.alt}
@@ -111,7 +109,7 @@ const Efforts = () => {
                     ))}
                 </div>
 
-                {/* ── Footer line ── */}
+                {/* Footer quote */}
                 <div className="ef__footer ef__animate">
                     <div className="ef__footer-line" />
                     <p className="ef__footer-text">

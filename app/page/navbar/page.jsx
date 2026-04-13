@@ -8,7 +8,7 @@ const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const links = ["Home", "About us", "Facilities", "Donate" , "Programs"];
+  const links = ["Home", "About us", "Facilities", "Donate", "Programs"];
 
   // Close menu on resize back to desktop
   useEffect(() => {
@@ -32,7 +32,6 @@ const Navbar = () => {
       "Facilities": "facilities",
       "Donate": "donate",
       "Programs": "packages",
-
     };
     const id = idMap[link];
     if (id) {
